@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+$LOAD_PATH.unshift(Dir.pwd + '/lib')
+
+require 'ruby_correct/cli/ruby_correct_command'
+
+RubyCorrect::CLI::RubyCorrectCommand.run(*ARGV)
